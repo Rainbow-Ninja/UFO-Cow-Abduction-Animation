@@ -1,0 +1,11 @@
+#cow{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+}
+
+body {
+  background-image: linear-gradient(rgb(9, 28, 87), rgba(9, 28, 7, 0.9));
+}
