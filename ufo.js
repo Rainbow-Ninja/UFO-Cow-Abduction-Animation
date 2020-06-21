@@ -15,3 +15,9 @@ tl.fromTo(".beam", 0.8, { scaleY:-2 , autoAlpha:0, ease: Linear.easeNone }, {sca
 tl.to(".light, .bigLight", {fill: "rgba(0, 0, 0, 0.5)", stroke: "gray"});
 // ufo leave
 tl.to(".ufo", {x: "+=500vw", ease: "linear", delay: 0.5, duration: 1})
+
+var refresh = document.getElementById("refresh").addEventListener("click", refreshPage);
+
+function refreshPage() {
+    location.reload(true);
+}
