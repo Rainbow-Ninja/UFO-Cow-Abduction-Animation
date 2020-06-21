@@ -2,7 +2,7 @@ gsap.set("body > *", {autoAlpha: 1});
 
 const tl = gsap.timeline({delay: 0.5});
 //cow abduction
-tl.to("#cow", {y: "-=38vh", x: "+=8vw", ease: "sine.out", scale: 0.1, opacity: 0, delay: 1, duration: 4})
+tl.to("#cow", {y: "-=40vh", x: "+=3vw", ease: "sine.out", scale: 0.1, opacity: 0, delay: 1, duration: 4})
 //lights flash
 gsap.to(".light", {fill: "rgba(250, 243, 192, random(0, 1)", yoyo: true, stagger: true, repeat: 8, duration: 0.5});
 // beam down at start
