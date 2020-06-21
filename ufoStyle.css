@@ -1,9 +1,9 @@
 #cow{
-    width: 300px;
-    height: auto;
-    position: absolute;
-    top: 600px;
-    left: 250px;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  top: 55%;
+  left: 40%;
 }
 
 body {
