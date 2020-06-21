@@ -17,6 +17,14 @@ button {
   color: white;
 }
 
+button:hover {
+  background-color: rgb(35, 54, 41);
+  border: 3px solid rgb(24, 37, 29);
+  color: rgb(204, 252, 210);
+  font-size: 1.1em;
+  padding: 0;
+}
+
 h2 {
   margin: 10px;
   letter-spacing: 2px;
